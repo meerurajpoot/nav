@@ -1,0 +1,37 @@
+
+@media screen and (min-width:320px) and (max-width:568px)
+{
+    .nav{
+        height: 100px;
+        position: relative;
+    }
+    .nchild i{
+        display: none;
+    }
+    .nchild>span{
+        position: absolute;
+        right: 20px;
+        font-size: 20px;
+    }
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .hchild{
+        border: 1px solid #000;
+        height: 45vh !important;
+        width: 100%;
+    }
+    .hchild i,span{
+        text-align: center;
+    }
+    .fmin{
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    
+}
